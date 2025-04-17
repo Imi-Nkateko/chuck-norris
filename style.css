@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#container {
+  position: relative;
+  background-color: #1f1f1f;
+  height: 100vh;
+  color: limegreen;
+  font-size: 1.8rem;
+  text-align: center;
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+#container p {
+  line-height: 1.2rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+  padding: 0 20px;
+}
+
+#joke-container {
+  height: 200px;
+}
+
+#load-Joke-Btn {
+  background-color: transparent;
+  border: 1px solid limegreen;
+  color: limegreen;
+  cursor: pointer;
+  padding: 10px;
+  text-transform: uppercase;
+  margin: 35px auto;
+  display: block;
+}
+
+#chuck-norris-image {
+  position: absolute;
+bottom: -4%;
+  left: -10%;
+}
